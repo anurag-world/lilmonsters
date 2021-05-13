@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "CSS Scrolling & Parallax Animation",
   "author": "Anurag World",
+  "license": "MIT",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
